@@ -1,0 +1,5 @@
+### CLANG ###
+.cache/
+
+### BUILD ###
+build/
