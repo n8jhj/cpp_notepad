@@ -10,8 +10,9 @@ set(CMAKE_CXX_STANDARD 17)
 # Add the main executable.
 add_executable(
     main
-    "src/main.cpp"
     "src/compiler_defines.cpp"
+    "src/json_settings.cpp"
+    "src/main.cpp"
 )
 
 # Add the binary tree to the search path for include files.
